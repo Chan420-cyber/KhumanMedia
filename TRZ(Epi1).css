@@ -1,0 +1,63 @@
+.body{
+   background-color: rgb(96, 96, 134);
+}
+.font{
+   font-family: monospace;
+   text-align: center;
+   font-size: 350%;
+   color: rgb(229, 224, 214);
+}
+.image{
+   width: 900px;
+   height: 1300px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* a {
+   text-decoration: none;
+   display: inline-block;
+   padding: 8px 16px;
+} */
+a {
+   text-decoration: none;
+   display: inline-block;
+   padding: 25px 25px;
+ }
+ 
+ a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ .previous {
+   background-color: #f1f1f1;
+   color: black;
+   
+ }
+ 
+ .next {
+   background-color: #04AA6D;
+   color: white;
+   text-align: right;
+ }
+ 
+ 
+ .round {
+   border-radius: 50%;
+ }
+
+   a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+ 
+.previous {
+   background-color: #f1f1f1;
+   color: black;
+ }
+ 
+ .Episode2 {
+   background-color: rgb(96, 96, 134);
+   color: white;
+ }
