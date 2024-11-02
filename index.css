@@ -33,7 +33,7 @@ a{
   font-size: 2rem;
 }
 .nav-branding img{
-  width: 100px;
+  width: 150px;
 }
 
 .nav-menu{
@@ -58,9 +58,9 @@ a{
 
 .bar{
   display: block;
-  width: 40px;
-  height: 5px;
-  margin: 5px auto;
+  width: 47px;
+  height: 7px;
+  margin: 2px auto;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   background-color: white;
