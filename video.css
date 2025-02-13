@@ -22,3 +22,18 @@ html, body {
    height: 100%;
    border: none;
 }
+/* Portrait mode adjustment */
+@media (orientation: portrait) {
+   .video-container iframe {
+       width: 100vw;
+       height: 56.25vw; /* Adjust to fit within portrait */
+   }
+}
+
+/* Handle orientation-specific cases */
+@media (orientation: landscape) {
+   .video-container iframe {
+       width: 100vh; /* Use height for width */
+       height: 56.25vh; /* Maintain 16:9 aspect ratio */
+   }
+}
