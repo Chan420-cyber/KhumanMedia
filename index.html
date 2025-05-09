@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khuman Media</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<section class="hero">
+    <!-- Navigation -->
+    <header>
+      <nav class="navbar">
+        <img src="assets/KMlogo.png" alt="Khuman Logo">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+          <li class="nav-item"><a href="course.html" class="nav-link">COURSE</a></li>
+          <li class="nav-item"><a href="career.html" class="nav-link">CAREER</a></li>
+          <li class="nav-item"><a href="studio.html" class="nav-link">STUDIO</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link">GALLERY</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">ABOUT</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+  <!-- glass-box Text Content -->
+  <div class="glass-box">
+    <h1>LOVE AT FIRST GLANCE</h1>
+    <p>
+       A boy rushing to school on his bicycle finds himself mesmerized by a beautiful girl he sees along the way—so much so that he loses focus and crashes, turning his hurried morning into an unexpected twist of fate.<br><span>Stay tuned for more.</span>
+    </p>
+    <div class="buttons">
+      <button class="btn">▶ PLAY</button>
+      <button class="btn">↩</button>
+    </div>
+  </div>
+</section>
+<!-- top picks -->
+<section class="top-picks">
+  <h2 class="top-picks-heading">TOP PICKS FOR YOU</h2>
+  <div class="top-picks-content">
+    <div class="text-content fade-in" id="character-text">
+      <h3>NEZUKO</h3>
+      <p>Nezuko is a kind demon girl known for her fierce loyalty and strength.</p>
+    </div>
+    <div class="image-content" onclick="nextCharacter()">
+      <img id="character-image" src="assets/background.jpg" alt="Character Image" class="slide-reset" />
+      <div class="swipe-up">
+        <span>&uarr;</span> Swipe Up
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- slide section -->
+ <section class="khare">
+  <div class="wrapper"> 
+    <i id="left" class="arrow-button" style="display: none;">&lt;</i> 
+     <div class="carousel">
+         <!-- <img src="1(TheExcuse)Page1.jpg" alt="img" draggable="false"> -->
+         <img src="assets/1(TheExcuse)Page1.jpg" alt="img" draggable="false">
+         <img src="assets/2(TheRedZone)Page1.jpg" alt="img" draggable="false">
+         <img src="assets/3(TheRedZoneEpi2)Page1.jpg" alt="img" draggable="false">
+         <img src="assets/5(Hanuba-Hanubi-pan-thaba)Page1.jpg" alt="img" draggable="false">
+         <img src="assets/1(TheExcuse)Page1.jpg" alt="img" draggable="false">
+         <img src="assets/1(TheExcuse)Page1.jpg" alt="img" draggable="false">
+         <img src="assets/1(TheExcuse)Page1.jpg" alt="img" draggable="false">
+     </div>
+     <i id="right" class="arrow-button" style="display: block;">&gt;</i>
+
+  </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section contact">
+        <h2>Contact Us</h2>
+        <p>Send us a message</p>
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button>Submit</button>
+      </div>
+  
+      <div class="footer-section sitemap">
+        <h2>Sitemap</h2>
+        <p>All our pages<br></p>
+        <ul>
+          <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+          <li class="nav-item"><a href="course.html" class="nav-link">COURSE</a></li>
+          <li class="nav-item"><a href="career.html" class="nav-link">CAREER</a></li>
+          <li class="nav-item"><a href="studio.html" class="nav-link">STUDIO</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link">GALLERY</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">ABOUT</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-section contact-info">
+        <!-- <div class="logo">Logo</div> -->
+        <div class="footer-logo">
+          <img src="assets/KMlogo.png" class="logo">
+      </div>
+        <p><i class="fas fa-phone"></i> 08415065716</p><br>
+        <p><i class="fas fa-envelope"></i> admin@khumanmedia.com</p><br>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.instagram.com/yourprofile" target="_blank"><i class="fab fa-facebook"></i>
+        </a>
+          <a href="https://www.instagram.com/yourprofile" target="_blank"><i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>Copyright © 2022 All Rights Reserved Khuman Media Animation.</p>
+    </div>
+  </footer>
+
+  
+<script src="/index.js"></script>
+<script src="/slide.js"></script>
+
+</body>
+</html>

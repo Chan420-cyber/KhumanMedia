@@ -1,0 +1,245 @@
+/* General Reset */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ /* body {
+   font-family: Arial, sans-serif;
+   background: url('assets/background1.jpg') no-repeat center center/cover;
+   background-color: #2d3e58;
+ } */
+ body {
+   margin: 0;
+   font-family: 'Arial', sans-serif;
+   color: white;
+   background: url('assets/background1.jpg') no-repeat center center fixed;
+   background-size: cover;
+   
+ }
+ .hero {
+   position: relative;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-top: 10px; /* space for nav */
+ }
+ 
+ /* navigation bar header */
+ header{
+   color: white;
+   /* background-color: #0f1a2b; */
+ }
+ 
+ li{
+   list-style: none;
+ }
+ 
+ a{
+   color: #f0f1f4;
+   text-decoration: none;
+ }
+ /* navigation bar header */
+ .navbar img{
+    font-size: 2rem;   
+    width: 110px;
+ }
+ 
+ .navbar{
+   min-height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 24px;
+ }
+ 
+ .nav-menu{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 3px;
+ 
+ }
+ 
+ .nav-menu a{
+   color: white;
+   text-decoration: none;
+   margin: 30px;
+   font-size: 14px;
+   font-weight: bold;
+ }
+ 
+ .nav-branding{
+   font-size: 2rem;
+ 
+ }
+ 
+ .nav-link{
+   transition: 0.2s ease;
+ 
+ }
+ 
+ .nav-link:hover{
+  text-decoration: underline;
+ }
+ 
+ /* hamburger */
+ .hamburger{
+   display: none;
+   cursor: pointer;
+ }
+ 
+ .bar{
+   display: block;
+   width: 25px;
+   height: 3px;
+   margin: 5px auto;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   background-color: white;
+ }
+ /*course section*/
+ .course-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 5%;
+}
+
+.title-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.title-label {
+  background: black;
+  color: white;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-size: 28px;
+  position: relative;
+}
+
+.title-label::after {
+  content: '';
+  position: absolute;
+  right: -30px;
+  top: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 30px solid black;
+}
+
+.listing-count {
+  margin-left: 30px;
+  color: white;
+  font-size: 16px;
+}
+
+/* Search */
+.search-box {
+  /* position: relative;
+  width: 250px; */
+  position: relative;
+  display: inline-block;
+}
+
+.search-box input {
+  /* width: 100%; */
+  padding: 10px 35px 10px 15px;
+  /* border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 14px; */
+  border-radius: 20px;
+   border: none;
+   outline: none;
+   width: 200px;
+}
+
+.search-box i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #444;
+  pointer-events: none;
+}
+ /* .course-section {
+   padding: 30px;
+   backdrop-filter: blur(10px);
+ }
+ 
+ .header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ }
+ 
+ .header h1 {
+   font-size: 30px;
+   background: black;
+   padding: 10px 20px;
+   display: inline-block;
+   clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+ }
+ 
+ .search-container {
+   position: relative;
+   display: inline-block;
+ }
+ 
+ .search-container input {
+   padding: 10px 35px 10px 15px; 
+   border-radius: 20px;
+   border: none;
+   outline: none;
+   width: 200px;
+ }
+ 
+ .search-container i {
+   position: absolute;
+   right: 12px;
+   top: 50%;
+   transform: translateY(-50%);
+   color: #666;
+   pointer-events: none;
+ }  */
+ 
+ .table-header {
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1.5px solid white;
+   margin: 20px 0 20px;
+   font-weight: bold;
+ }
+ 
+ .course-card {
+   display: flex;
+   justify-content: space-between;
+   background: rgba(255, 255, 255, 0.1);
+   border-radius: 12px;
+   padding: 20px;
+   margin-bottom: 15px;
+   backdrop-filter: blur(10px);
+   transition: transform 0.3s ease;
+   max-width: 950px; /* adjust this as needed */
+   width: 100%;        /* responsive width */
+ }
+ 
+ .course-card:hover {
+   transform: scale(1.01);
+ }
+ 
+ .course-card h2 {
+   margin: 0;
+ }
+ 
+ .course-card p {
+   margin: 5px 0 0;
+   font-size: 14px;
+ }
+ 

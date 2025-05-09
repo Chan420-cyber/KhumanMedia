@@ -1,0 +1,239 @@
+/* General Reset */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ /* body {
+   font-family: Arial, sans-serif;
+   background: url('assets/background1.jpg') no-repeat center center/cover;
+   background-color: #2d3e58;
+ } */
+ body {
+   margin: 0;
+   font-family: 'Arial', sans-serif;
+   color: white;
+   background: url('assets/background1.jpg') no-repeat center center fixed;
+   background-size: cover;
+   
+ }
+ .hero {
+   position: relative;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-top: 10px; /* space for nav */
+ }
+ 
+ /* navigation bar header */
+ header{
+   color: white;
+   /* background-color: #0f1a2b; */
+ }
+ 
+ li{
+   list-style: none;
+ }
+ 
+ a{
+   color: #f0f1f4;
+   text-decoration: none;
+ }
+ /* navigation bar header */
+ .navbar img{
+    font-size: 2rem;   
+    width: 110px;
+ }
+ 
+ .navbar{
+   min-height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 24px;
+ }
+ 
+ .nav-menu{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 3px;
+ }
+ 
+ .nav-menu a{
+   color: white;
+   text-decoration: none;
+   margin: 30px;
+   font-size: 14px;
+   font-weight: bold;
+ }
+ 
+ .nav-branding{
+   font-size: 2rem;
+ 
+ }
+ 
+ .nav-link{
+   transition: 0.2s ease;
+ 
+ }
+ 
+ .nav-link:hover{
+  text-decoration: underline;
+ }
+ 
+ /* hamburger */
+ .hamburger{
+   display: none;
+   cursor: pointer;
+ }
+ 
+ .bar{
+   display: block;
+   width: 25px;
+   height: 3px;
+   margin: 5px auto;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   background-color: white;
+ }
+ /*about*/
+ .about-section {
+   background: linear-gradient(to right, #d7eaff, #5f91f2);
+   padding: 40px;
+   font-family: Arial, sans-serif;
+   color: #001;
+ }
+ 
+ .about-header {
+   margin-bottom: 20px;
+ }
+ 
+ .about-title {
+   display: inline-block;
+   background-color: black;
+   color: white;
+   font-size: 26px;
+   font-weight: bold;
+   padding: 10px 26px;
+   position: relative;
+ }
+ 
+ .about-title::after {
+   content: '';
+   position: absolute;
+   right: -30px;
+   top: 0;
+   width: 0;
+   height: 0;
+   border-top: 50.5px solid transparent;
+   border-left: 30px solid black;
+ }
+ 
+ 
+ .about-wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   gap: 40px;
+   max-width: 1200px;
+   margin: 0 auto; /* center the whole block */
+   flex-wrap: wrap; /* enable responsiveness */
+ }
+ 
+ .about-text {
+   flex: 1 1 55%;
+   font-size: 18px;
+   line-height: 1.6;
+ }
+ 
+ .about-images {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   flex: 1 1 40%;
+ }
+ 
+ .about-images img {
+   width: 100%;
+   height: auto;
+   border-radius: 14px;
+   object-fit: cover;
+ }
+ 
+ /* footer*/
+ .footer {
+   /* background-color: #666; */
+   background-color: linear-gradient(to bottom, #f9e79f, #a569bd);
+   color: white ;
+   padding: 30px 20px 10px;/*reduce top and bottom padding*/
+   font-family: Arial, sans-serif;  
+ }
+ 
+ .footer-container {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ }
+ 
+ .footer-section {
+   flex: 1;
+   min-width: 250px;
+   margin: 25px;/* Reduce spacing between sections */
+ }
+ 
+ .footer-section h2 {
+   font-size: 24px;
+   font-weight: bold;
+ }
+ 
+ .footer-section input,
+ .footer-section textarea {
+   width: 100%;
+   margin: 5px 0;/* Tighten spacing */
+   padding: 8px;
+ }
+ 
+ .footer-section button {
+   padding: 10px 20px;
+   background-color: black;
+   color: white;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ .footer-section ul {
+   list-style: disc;
+   padding-left: 20px;
+ }
+ 
+ /* .logo {
+   width: 80px;
+   height: 80px;
+   background-color: lightgray;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 20px;
+ } */
+ .footer-logo .logo {
+   max-width: 150px;
+   margin-bottom: 10px;
+ }
+ .social-icons i {
+   margin-right: 10px;
+   font-size: 20px;
+   cursor: pointer;
+ }
+ 
+ .footer-bottom {
+   text-align: center;
+   padding-top: 10px;/* Reduce top space */
+   border-top: 1px solid #aaa;
+   font-size: 14px;
+ }
+ 
+ 
+ 
