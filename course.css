@@ -243,3 +243,70 @@
    font-size: 14px;
  }
  
+
+ @media (max-width: 768px) {
+  .nav-menu {
+    position: absolute;
+    top: 100px;
+    left: -100%;
+    background-color: rgba(0,0,0,0.9);
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.3s;
+    padding-top: 50px;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-menu a {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .course-card {
+    flex-direction: column;
+    text-align: left;
+    padding: 15px;
+  }
+
+  .course-card > div {
+    margin-bottom: 10px;
+  }
+
+  .table-header {
+    display: none;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .title-label {
+    font-size: 20px;
+    padding: 8px 20px;
+  }
+
+  .title-label::after {
+    border-top: 40px solid transparent;
+    border-left: 25px solid black;
+  }
+
+  .listing-count {
+    font-size: 14px;
+    margin-left: 15px;
+  }
+
+  .search-box input {
+    width: 140px;
+  }
+}

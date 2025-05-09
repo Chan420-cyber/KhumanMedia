@@ -165,7 +165,7 @@
  /* footer*/
  .footer {
    /* background-color: #666; */
-   background-color: linear-gradient(to bottom, #f9e79f, #a569bd);
+  
    color: white ;
    padding: 30px 20px 10px;/*reduce top and bottom padding*/
    font-family: Arial, sans-serif;  
@@ -187,6 +187,11 @@
    font-size: 24px;
    font-weight: bold;
  }
+ .footer-section a {
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
  
  .footer-section input,
  .footer-section textarea {
@@ -235,5 +240,20 @@
    font-size: 14px;
  }
  
- 
+ @media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 100px;
+    left: 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
  
