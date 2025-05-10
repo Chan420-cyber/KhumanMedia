@@ -13,7 +13,7 @@
    
  }
  .hero {
-    background: url('assets/background1.jpg') no-repeat center center/cover;
+   background: url('assets/background2.png') no-repeat center center/cover;
    position: relative;
    text-align: center;
    display: flex;
@@ -25,7 +25,7 @@
  /* navigation bar header */
  header{
    color: white;
-   /* background-color: #0f1a2b; */
+   /* background-color: #669; */
  }
  
  li{
@@ -279,10 +279,11 @@
 } */
 .khare{
   display: flex;
-  padding: 0px 35px;
+  padding: 50px 35px;
   align-items: center;
   justify-content: center;
   min-height: 60vh;
+  background: linear-gradient(to bottom, #a569bd, #f9e79f);
 } 
 .wrapper{
   max-width: 1200px;
@@ -353,8 +354,7 @@
 }
 /* footer*/
 .footer {
-  /* background-color: #666; */
-  background-color: linear-gradient(to bottom, #f9e79f, #a569bd);
+  background-color: rgb(197, 196, 196);
   color: black;
   padding: 30px 20px 10px;/*reduce top and bottom padding*/
   font-family: Arial, sans-serif;  
@@ -375,6 +375,12 @@
 .footer-section h2 {
   font-size: 24px;
   font-weight: bold;
+}
+
+.footer-section a {
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
 }
 
 .footer-section input,
@@ -422,5 +428,74 @@
   padding-top: 10px;/* Reduce top space */
   border-top: 1px solid #aaa;
   font-size: 14px;
+}
+
+/* Responsive for Tablets and Phones */
+/* @media (max-width: 1024px) {
+  .nav-menu {
+    gap: 10px;
+    margin-right: 20px;
+  }
+
+  .glass-box {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.2rem;
+  }
+
+  .top-picks-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel img {
+    width: calc(100% / 2); /* Show 2 images per row */
+  }
+} */
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #222;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .top-picks-heading {
+    font-size: 1.5rem;
+  }
+
+  .carousel img {
+    width: 100%; /* One image per row */
+  }
+
+  .glass-box h1 {
+    font-size: 1.8rem;
+  }
+
+  .glass-box p {
+    font-size: 0.95rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    margin: 10px 0;
+  }
 }
 

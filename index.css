@@ -432,7 +432,7 @@
 
 
 /* Responsive for Tablets and Phones */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .nav-menu {
     gap: 10px;
     margin-right: 20px;
@@ -452,7 +452,7 @@
   .carousel img {
     width: calc(100% / 2); /* Show 2 images per row */
   }
-}
+} */
 
 @media (max-width: 768px) {
   .navbar {
